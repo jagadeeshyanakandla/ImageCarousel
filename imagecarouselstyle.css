@@ -1,0 +1,46 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    height: 100vh;
+}
+img{
+    border: 2px solid yellow;
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+}
+.carousel{
+    box-shadow: 2px 2px 5px purple;
+    height: 530px;
+    width: 500px;
+    overflow: hidden;
+}
+.image-content{
+    display: flex;
+    transform: translateX();
+    transition: transform 0.5s ease-in-out;
+}
+.button-content{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    background-color: blue;
+    color: chartreuse;
+    padding: 0.5rem;
+    width: 49.5%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+.btn:hover{
+    opacity: 0.9;
+}
